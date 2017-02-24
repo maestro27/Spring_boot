@@ -1,0 +1,13 @@
+<ehcache>
+  <cache
+     name="weatherInfo"
+     maxEntriesLocalHeap="5000"
+     eternal="false"
+     timeToIdleSeconds="0"
+     timeToLiveSeconds="30"
+     maxEntriesLocalDisk="0"
+     diskExpiryThreadIntervalSeconds="120"
+     memoryStoreEvictionPolicy="LRU"
+  />
+         
+</ehcache>
